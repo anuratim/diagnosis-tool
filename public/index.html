@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACN Diagnoses</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<link type="text/css" rel="stylesheet" href="/css/tipsy.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/pfchart.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/main.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/demo.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="/js/d3.v3.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="/static/vendor/pf-d3/vendor/lodash.min.js"></script>
+	<script type="text/javascript" src="/static/vendor/pf-d3/vendor/underscore.string.js"></script>
+	
+	<script type="text/javascript" src="/js/pfchart.js"></script>
+	<script type="text/javascript" src="/js/overview.js"></script>
+	<script type="text/javascript" src="/js/demo-constants.js"></script>
+	<html xmlns:xlink = "http://www.w3.org/1999/xlink">
+	</style>
+</head>
+<body>
+	<!-- need pointer-events="all" for Chrome to broadcast DOM events within the SVG container -->
+	<svg id="svg-container" pointer-events="all"></svg>
+	<div id="main-container">
+		<div id="title"><h2><span id="title_text">ACN Diagnoses</span></h2></div>
+	</div>
+	<div id="tooltip-container">
+		<div id="tt_title"><h4 id="tt_title_text"></h4>
+		</div>
+	</div>
+	<div id="barbg"></div>
+	<div id="instructions"><h4 id="instructions_text">Hover over a diagnosis to see % patients with it</h4>
+</body>
+</html>
+
+

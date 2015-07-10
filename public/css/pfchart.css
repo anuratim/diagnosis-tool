@@ -1,0 +1,177 @@
+/***** Axes *****/
+
+/* axis title */
+g.axis text.axis-title {
+	font-size: 14px;
+	stroke: #000;
+	stroke-width: .5;
+}
+
+/* axis line */
+g.axis path {
+	shape-rendering: crispEdges;
+	stroke: #000;
+	stroke-width: 1;
+}
+
+/* make axis lines 3px thick so we can see the gradient */
+path.x-axis, path.y-axis {
+	stroke-width: 3;
+}
+
+path.x-axis.good, path.y-axis.good {
+	stroke: green;
+}
+
+path.x-axis.warning, path.y-axis.warning {
+	stroke: yellow;
+}
+
+path.x-axis.severe, path.y-axis.severe {
+	stroke: orange;
+}
+
+path.x-axis.danger, path.y-axis.danger {
+	stroke: red;
+}
+
+/* tick label */
+g.axis text {
+	font-size: 12px;
+	font-weight: normal;
+	stroke: #000;
+	stroke-width: .5;
+}
+
+/* tick line */
+g.axis line {
+	stroke: #000;
+	stroke-width: 1;
+}
+
+/***** Brush *****/
+.brush .extent {
+	fill-opacity: .125;
+	shape-rendering: crispEdges;
+}
+
+/* non-selected circles */
+.selecting circle {
+	opacity: .3;
+}
+
+/* selected circles */
+.selecting circle.selected {
+	opacity: 1;
+}
+
+/***** Brush Handle: "resize" is d3's automatically added classname *****/
+.resize path {
+	fill: #CCC;
+	fill-opacity: .8;
+	stroke: #4fa2ff;
+	stroke-width: 1.5px;
+}
+
+/***** Bar Chart *****/
+text.bar-label {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8pt;
+	stroke: #000;
+	stroke-width: 1px;
+	text-anchor: end;
+}
+
+/* bar color */
+g rect {
+	fill: #4fa2ff;
+}
+
+/***** Line Chart *****/
+g path {
+	stroke: #4fa2ff;
+}
+
+g circle {
+	fill: #4fa2ff;
+}
+		
+#labels {
+	display: block;
+}
+
+.label {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.label.hover {
+	font-weight: bold;
+}
+
+path {
+	fill: none;
+	font-weight: normal;
+	stroke-width: 1.3px;
+}
+
+path.hover {
+	font-weight: bold;
+	stroke-width: 2.5px;
+}
+
+/***** Paired Chart *****/
+/* labels */
+g.pair text {
+    fill: #000;
+    font-size: 11px;
+    text-anchor: middle;
+}
+
+/* first bar/column (even though pair-2: order they get appended) */
+g.pair rect.pair-2 {
+	fill: #999;
+}
+
+/* second bar/column (even though pair-1: order they get appended) */
+g.pair rect.pair-1 {
+	fill: #4fa2ff;
+}
+
+/* hover for both bars */
+g.pair rect.pair-1:hover, g.pair rect.pair-2:hover {
+	fill: #fc9c27;
+}
+
+/* circle inside bar */
+circle.circle-in-bar {
+	fill: green;
+}
+
+/***** Stacked Chart and Legend *****/
+g.band rect {
+	stroke: gray;
+}
+
+g.band-1 rect, .legend-3 {
+	fill: #fc9c27;
+}
+
+g.band-2 rect, .legend-2 {
+	fill: #f2f2f2;
+}
+
+g.band-3 rect, .legend-1 {
+	fill: #4fa2ff;
+}
+
+/***** Tool Tips *****/
+div.tool-tip div.tool-tip-header {
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+div.tool-tip p {
+	font-size: 14px;
+	line-height: .8em;
+}

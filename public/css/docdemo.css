@@ -1,0 +1,32 @@
+body {
+  font: 10px sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:14px;
+  fill: #333;
+}
+#chart {
+  float:left;
+}
+.patientlegend {
+float: right;
+color:red;
+fill: #000;
+width: 100px;
+stroke: #000;
+stroke-width: 2;
+}
+.patientlist {
+float: right;
+ width: 300px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.light-label {
+	font-size: 12px;
+	fill: #999;
+}

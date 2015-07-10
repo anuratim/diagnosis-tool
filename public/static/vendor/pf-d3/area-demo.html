@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>d3 Exploration 1</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <style type="text/css">
+
+    body {
+      font: 10px sans-serif;
+			margin: 20px;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .area {
+      fill: steelblue;
+    }
+
+ </style>
+ </head>
+
+ <body>
+  <div class="module"></div>
+
+  <button class="btn btn-large btn-primary" type="button" id="refresh">Refresh data</button>
+
+  <!-- javascripts -->
+  <script type="text/javascript" src="vendor/jquery/jquery.min.2.0.js"></script> 
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendor/d3/d3.3.1.7.js"></script>
+  <script type="text/javascript" src="vendor/lodash.min.js"></script>
+
+  <!-- These could be concatenated/minified -->
+  <script type="text/javascript" src="lib/helpers.js"></script> 
+  <script type="text/javascript" src="lib/defaults.js"></script>
+	<script type="text/javascript" src="lib/chart.js"></script>
+  <script type="text/javascript" src="lib/area-chart.js"></script>
+
+  <script type="text/javascript" src="area-demo.js"></script>
+ </body>
+</html>

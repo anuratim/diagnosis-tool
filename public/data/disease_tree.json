@@ -1,0 +1,220 @@
+{
+ "name": "diseases",
+ "children": [
+{
+ "name": "Respiratory",
+ "children": [
+    {"name": "COPD", "size": 3279},
+    {"name": "Oth low resp", "size": 2542},
+    {"name": "Ot up rsp in", "size": 1035},
+    {"name": "Pneumonia", "size": 966},
+    {"name": "Pleurisy", "size": 905},
+    {"name": "Bronchitis", "size": 866},
+    {"name": "Ot uppr resp", "size": 740},
+    {"name": "Asthma", "size": 593},
+    {"name": "Allergy", "size": 529},
+    {"name": "Adlt resp fl", "size": 519},
+    {"name": "Asp pneumon", "size": 115},
+    {"name": "Brnch/lng ca", "size": 105}
+  ]
+},
+{
+ "name": "CNS",
+ "children": [
+    {"name": "Oth nerv dx", "size": 1405},
+    {"name": "Fatigue", "size": 1137},
+    {"name": "Nutrit defic", "size": 1103},
+    {"name": "Ot nutrit dx", "size": 638},
+    {"name": "Dizziness", "size": 580},
+    {"name": "Headache/mig", "size": 503},
+    {"name": "Nausea/vomit", "size": 437},
+    {"name": "Oth CNS infx", "size": 399},
+    {"name": "Complic devi", "size": 389},
+    {"name": "Syncope", "size": 378},
+    {"name": "Mood disorders", "size": 370},
+    {"name": "FUO", "size": 333},
+    {"name": "Delirium/dementia/amnestic/other cognitiv", "size": 324},
+    {"name": "Coma/brn dmg", "size": 293},
+    {"name": "Anxiety disorders", "size": 275},
+    {"name": "Encephalitis", "size": 271},
+    {"name": "Ot hered CNS", "size": 263},
+    {"name": "Aneurysm", "size": 220},
+    {"name": "Schizophrenia and other psychotic disorde", "size": 136},
+    {"name": "Epilepsy/cnv", "size": 127}
+  ]
+},
+{
+ "name": "Cancer",
+ "children": [
+    {"name": "Neoplsm unsp", "size": 1077},
+    {"name": "Ot bnign neo", "size": 1018},
+    {"name": "Non-epith ca", "size": 641},
+    {"name": "Breast dx", "size": 292},
+    {"name": "Prostate can", "size": 159},
+    {"name": "Breast cancr", "size": 125}
+  ]
+},
+{
+ "name": "Renal",
+ "children": [
+    {"name": "Fluid/elc dx", "size": 707},
+    {"name": "Chr kidney disease", "size": 689},
+    {"name": "Ot dx kidney", "size": 478},
+    {"name": "Ac renl fail", "size": 444}
+  ]
+},
+{
+ "name": "Metabolic disease",
+ "children": [
+    {"name": "Hyperlipidem", "size": 1886},
+    {"name": "DiabMel no c", "size": 1391},
+    {"name": "Thyroid dsor", "size": 990},
+    {"name": "DiabMel w/cm", "size": 709},
+    {"name": "Glaucoma", "size": 425},
+    {"name": "Ot endo dsor", "size": 254}
+  ]
+},
+{
+ "name": "Genital tract",
+ "children": [
+    {"name": "Sexual Infxs", "size": 231},
+    {"name": "Oth male gen", "size": 220},
+    {"name": "Menopausl dx", "size": 178},
+    {"name": "Ot femal gen", "size": 166}
+  ]
+},
+{
+ "name": "Sensory",
+ "children": [
+    {"name": "Cataract", "size": 1014},
+    {"name": "Other eye dx", "size": 745},
+    {"name": "Other ear dx", "size": 718},
+    {"name": "Retinal dx", "size": 518},
+    {"name": "Eye infectn", "size": 401},
+    {"name": "Otitis media", "size": 194},
+    {"name": "Blindness", "size": 167},
+    {"name": "Mouth dx", "size": 107}
+  ]
+},
+{
+ "name": "Derm",
+ "children": [
+    {"name": "Oth skin dx", "size": 1752},
+    {"name": "Skin infectn", "size": 775},
+    {"name": "Ulcer skin", "size": 378},
+    {"name": "Opn wnd extr", "size": 366},
+    {"name": "Ot infl skin", "size": 352},
+    {"name": "Opn wnd head", "size": 258}
+  ]
+},
+{
+ "name": "Other",
+ "children": [
+    {"name": "Immuniz/scrn", "size": 2456},
+    {"name": "Unclassified", "size": 2009},
+    {"name": "Exam/eval", "size": 1820},
+    {"name": "Other screen", "size": 1483},
+    {"name": "Other injury", "size": 1054},
+    {"name": "Superfic inj", "size": 567},
+    {"name": "Screening and history of mental health an", "size": 276}
+  ]
+},
+{
+ "name": "Musculoskeletal",
+ "children": [
+    {"name": "Ot conn tiss", "size": 1928},
+    {"name": "Ot joint dx", "size": 1705},
+    {"name": "Back problem", "size": 1607},
+    {"name": "Ot aftercare", "size": 1550},
+    {"name": "Osteoarthros", "size": 995},
+    {"name": "Rehab", "size": 940},
+    {"name": "Ot bone dx", "size": 867},
+    {"name": "Osteoporosis", "size": 455},
+    {"name": "Sprain", "size": 426},
+    {"name": "Oth fracture", "size": 325},
+    {"name": "Acq foot def", "size": 260},
+    {"name": "Fx leg", "size": 203},
+    {"name": "Joint injury", "size": 154},
+    {"name": "Ot acq defor", "size": 151},
+    {"name": "Fx arm", "size": 147},
+    {"name": "Fx hip", "size": 126},
+    {"name": "Gout/ot crys", "size": 116},
+    {"name": "Rheum arth", "size": 109}
+  ]
+},
+{
+ "name": "Urinary Tract",
+ "children": [
+    {"name": "Other GU dx", "size": 1280},
+    {"name": "UTI", "size": 1086},
+    {"name": "BPH", "size": 481},
+    {"name": "Urin stone", "size": 211},
+    {"name": "Ot dx bladdr", "size": 162}
+  ]
+},
+{
+ "name": "Infectious disease",
+ "children": [
+    {"name": "Hepatitis", "size": 1192},
+    {"name": "Meningitis", "size": 1127},
+    {"name": "Viral infect", "size": 1095},
+    {"name": "Tuberculosis", "size": 867},
+    {"name": "Mycoses", "size": 677},
+    {"name": "Septicemia", "size": 451},
+    {"name": "Oth bact inf", "size": 428},
+    {"name": "Wht blood dx", "size": 245},
+    {"name": "Oth infectns", "size": 136},
+    {"name": "Lymph enlarg", "size": 127},
+    {"name": "Patholog fx", "size": 126}
+  ]
+},
+{
+ "name": "GI",
+ "children": [
+    {"name": "Other GI dx", "size": 1255},
+    {"name": "Abdomnl pain", "size": 1063},
+    {"name": "Esophgeal dx", "size": 642},
+    {"name": "Oth liver dx", "size": 428},
+    {"name": "GI hemorrhag", "size": 369},
+    {"name": "Diverticulos", "size": 365},
+    {"name": "Biliary dx", "size": 275},
+    {"name": "Abdom hernia", "size": 266},
+    {"name": "Ot dx stomch", "size": 245},
+    {"name": "Gastritis", "size": 237},
+    {"name": "Gastroent", "size": 179},
+    {"name": "Intest infct", "size": 163},
+    {"name": "Int obstruct", "size": 137}
+  ]
+},
+{
+ "name": "Cardiovascular",
+ "children": [
+    {"name": "HTN", "size": 2188},
+    {"name": "Chest pain", "size": 1441},
+    {"name": "Dysrhythmia", "size": 1235},
+    {"name": "Ot circul dx", "size": 1083},
+    {"name": "Coron athero", "size": 1076},
+    {"name": "Anemia", "size": 926},
+    {"name": "Hrt valve dx", "size": 728},
+    {"name": "chf;nonhp", "size": 654},
+    {"name": "Htn complicn", "size": 622},
+    {"name": "Perip athero", "size": 614},
+    {"name": "Precere occl", "size": 502},
+    {"name": "Conduction", "size": 362},
+    {"name": "Oth heart dx", "size": 349},
+    {"name": "Complic proc", "size": 330},
+    {"name": "Acute CVD", "size": 299},
+    {"name": "Other CVD", "size": 298},
+    {"name": "Phlebitis", "size": 281},
+    {"name": "Pulm hart dx", "size": 265},
+    {"name": "Oth vein dx", "size": 230},
+    {"name": "Coag/hemr dx", "size": 226},
+    {"name": "Carditis", "size": 226},
+    {"name": "Varicose vn", "size": 184},
+    {"name": "Late eff CVD", "size": 170},
+    {"name": "TIA", "size": 169},
+    {"name": "Acute MI", "size": 151}
+  ]
+}
+]
+}

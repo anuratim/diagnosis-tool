@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+
+  <title>Mocha Tests</title>
+
+  <link rel="stylesheet" href="vendor/mocha.css" />
+ </head>
+
+ <body>
+  <div id="mocha"></div>
+
+  <script src="vendor/mocha.js"></script>
+  <script src="vendor/chai.js"></script>
+
+  <script src="../vendor/lodash.min.js"></script>
+  <script src="../vendor/d3/d3.3.1.7.js"></script>
+
+  <script src="../lib/helpers.js"></script>
+
+  <script>mocha.setup('bdd')</script>
+
+  <script src="test.helpers.js"></script>
+
+  <script>
+   var should = chai.should();
+
+   mocha.checkLeaks();
+
+   mocha.globals(['jQuery', 'd3', '$']);
+
+   mocha.run();
+  </script>
+ </body>
+</html>

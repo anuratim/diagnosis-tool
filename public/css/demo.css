@@ -1,0 +1,333 @@
+body {
+  font: 300 36px "Helvetica Neue";
+}
+
+/* superimpose container div and svg */
+div#main-container, svg#svg-container {
+  width: 1300px;
+  padding: 0px;
+}
+
+div#main-container {
+  height: 720px;
+  margin: 20px 0px 10px 22px;
+}
+
+div#tooltip-container {
+  height: 25px;
+  width: 400px;
+  position: fixed;
+  top: 40px;
+  left: 903px;
+}
+
+div#instructions {
+  height: 25px;
+  width: 400px;
+  position: fixed;
+  top: 55px;
+  left: 30px;
+}
+
+div#barbg {
+  height: 650px;
+  width: 565px;
+  position: fixed;
+  top: 50px;
+  left: 890px;}
+
+svg#svg-container {
+  height: 93%;
+  width: 850px;
+  margin-left: 50px;/* why is this needed to line up with main-container? */
+  position: absolute;
+  top: 75px;
+  left: -20px;
+}
+
+svg#barchart {
+  position: fixed;
+  width: 100%;
+  top: 100px;
+  left: 905px;
+}
+
+div#restore-overview-container {
+	display: none;
+	padding-top: 10px;
+}
+
+a:link, a:visited {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote:before {
+  content: "â€œ";
+  position: absolute;
+  left: -.4em;
+}
+
+blockquote:after {
+  content: "â€";
+  position: absolute;
+}
+
+body > ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: inherit;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+}
+
+h3 {
+  bottom: -20px;
+  font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #333;
+}
+
+h5 {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+}
+
+.invert {
+  background: #1f1f1f;
+  color: #dcdccc;
+}
+
+.invert h2, .invert h3 {
+  color: #7f9f7f;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.edge {
+  opacity: 0;
+  stroke: #666;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+text:not(.rxname) {
+  font-size: 8px;
+  pointer-events: all;
+}
+
+text.parent {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+text.child {
+  font-size: 12px;
+  fill: #666;
+  fill-opacity: 0.8;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #999;
+  /*pointer-events: all;*/
+}
+
+circle.main {
+  display:none;
+}
+text.main {
+  display:none;
+}
+
+circle.parent {
+  /*//pointer-events: none;*/
+  fill: #1f77b4;
+  fill-opacity: .1;
+  stroke-width: 0px;
+  stroke: steelblue;
+}
+
+circle.main {
+  fill-opacity: 0;
+}
+
+circle.parent:hover {
+  stroke: #999;
+  stroke-width: .5px;
+}
+
+circle.child:hover {
+  stroke: #999;
+  stroke-width: 2px;
+}
+
+circle.child {
+  /*//pointer-events: none;*/
+  stroke-width: 0;
+  fill-opacity:0.2;
+}
+
+circle.bright {
+  fill-opacity: 1.0;
+}
+
+circle.outline {
+  stroke: #333;
+  stroke-width: 4;
+}
+
+circle.dim {
+  fill-opacity: 0.05;
+}
+text.dim {
+  display: none;
+}
+
+text.selected {
+  opacity: 1;
+}
+
+text.bright {
+  font-size: 14px;
+  font-weight:bold;
+  color: black;
+  stroke: white;
+  stroke-opacity: 0.1;
+}
+
+text.parent.no_category {
+  visibility: hidden;
+}
+
+circle.minicircle {
+  pointer-events: none;
+  fill:black;
+}
+
+circle.selected {
+  opacity: 1 !important;  
+  stroke: #000;
+  stroke-width: 2;
+}
+
+circle.upper_respiratory {
+  fill: #46008c;
+}
+
+circle.cardiovascular {
+  fill: #002266;
+}
+
+circle.musculoskeletal {
+  fill: #e61e19;
+}
+
+circle.metabolic_disease {
+  fill: #14a4ec;
+}
+
+circle.sensory {
+  fill: #6be2c3;
+}
+
+circle.cns {
+  fill: #ff9326;
+}
+
+circle.renal {
+  fill: #045ea5;
+}
+
+circle.no_category {
+  fill: #46008c;
+}
+
+/* Cholesterol's data-bubble arrow position */
+#data-bubble-cholesterol {
+	float: right;
+}
+
+#data-bubble-cholesterol:before {
+	left: 350px;
+}
+
+#data-bubble-cholesterol:after {
+	left: 356px;
+}
+
+g.axis text {
+  fill: #333;
+  stroke-width: 0;
+  /*-webkit-text-stroke: 2px black;*/
+}
+g.axis text.axis-title {
+  fill: #333;
+  stroke-width: 0;
+}
+
+g.pair rect.good, g.pair rect.warning, g.pair rect.severe, g.pair rect.danger {
+fill: #4fa2ff;
+}
+
+rect {
+  fill: #14a4ec;
+}
+
+text.bar-label {
+  font: 300 14px 'Source Sans Pro';
+  fill: #bbb;
+  stroke-width: 0px;
+}
+
+text.rxname {
+  font-size: 14px;
+  pointer-events: all;
+}
+
+#tt_title_text {
+  font-size: 18px;
+}

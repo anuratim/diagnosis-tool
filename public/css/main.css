@@ -1,0 +1,192 @@
+.content-template {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+div.chart-container {
+	width: 700px;
+}
+
+h2, div.data-bubble h2 {
+	font-size: 18px;
+	line-height: 120%;
+	color: #d9a300;
+	margin: 20px 0 0 20px;
+}
+
+/* cholesterol colors */
+g circle.legend-1, circle.legend-2, .cholesterol-legend .legend-1, .cholesterol-legend .legend-2 {
+	fill: #ff4900;
+}
+
+g circle.legend-3, .cholesterol-legend .legend-3 {
+	fill: #999;
+}
+
+g circle.legend-4, .cholesterol-legend .legend-4 {
+	fill: #00af64;
+}
+
+g.pair rect.pair-1:hover {
+	/* disable hover */
+	fill: #4fa2ff;
+}
+
+g circle.circle-in-bar.highlight, .selecting circle.selected.highlight, .highlight {
+	color: red;
+	font-weight: bold;
+	fill: red;
+}
+
+/* all circles in HbA1c/eGFR view */
+circle.dot, circle.dot.selected {
+	stroke-width: 0;
+}
+
+/* selected circles in HbA1c/eGFR view */
+.selecting circle.selected {
+	fill: #3480c3;
+}
+
+/* patient list */
+div#two-condition-content h2 {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+div#two-condition-content div.col {
+	background: #f5f9fc;
+	border: 1px solid #e7e7e7;
+	float: left;
+	padding: 2px;
+	text-align: center;
+	width: 64px;
+}
+
+div#two-condition-content div.col h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+}
+
+div#patient-list {
+	/*margin: 15px auto 0px auto;*/
+	overflow: auto;
+}
+
+div#patient-list div.col div {
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+}
+
+/*	Data Bubble */
+div.data-bubble {
+	background-color: #fff;
+	border: 4px solid #105085;
+	border-radius: 30px;
+	height: 300px;
+	position: relative;
+	text-align: center;
+	width: 500px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	/*-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;*/
+}
+
+div.data-bubble:before, div.data-bubble:after {
+	content: ' ';
+	position: absolute;
+}
+
+/* left and top control arrow position */
+div.data-bubble:before {
+	border: 25px solid;
+	border-color: transparent #105085 #105085 transparent;
+	left: 400px;
+	top: -50px;
+}
+
+/* left and top control arrow position */
+div.data-bubble:after {
+	border: 20px solid;
+	border-color: transparent #fff #fff transparent;
+	left: 406px;
+	top: -40px;
+}
+
+div.data-bubble.no-arrow:before, div.data-bubble.no-arrow:after {
+	border: none;
+}
+
+div.data-bubble {
+	/* the vertical space between the chart and data-bubble */
+	margin-top: 20px;
+}
+
+/* content inside data bubble */
+div.data-bubble-content-container {
+	height: 222px;
+	margin: 15px auto 0px auto;
+	overflow: auto;
+}
+
+div.data-bubble h2 {
+	color: #105085;
+	position: relative;
+}
+
+div.data-bubble h3 {
+	border-bottom: solid 1px #e7e7e7;
+	font-size: 12px;
+	height: 35px;
+	line-height: 15px;
+	margin: 3px;
+}
+
+div.data-bubble g circle {
+	fill: #105085;
+}
+
+div.data-bubble div.col {
+	background: #f5f9fc;
+	border: 1px solid #e7e7e7;
+	/*border-color: #e7e7e7 transparent #e7e7e7 transparent;*/
+	float: left;
+	text-align: center;
+}
+
+div.data-bubble div.col h3 {
+	font-weight: bold;
+}
+
+div.data-bubble div.col div {
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+}
+
+g.pair rect.danger {
+	cursor: pointer;
+}
+
+g.pair rect.danger.highlight, g.pair rect.danger:hover {
+	fill: #105085;
+}
+
+g.pair rect.pair-2:hover {
+	/* disable hover */
+	fill: #999;
+}
+
+g.pair rect.good, g.pair rect.warning, g.pair rect.severe, g.pair rect.danger {
+	fill: #4fa2ff;
+}
